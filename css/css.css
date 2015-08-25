@@ -1,0 +1,92 @@
+*{margin:0;padding:0;}
+body{font-family:Tahoma, Geneva, sans-serif;}
+.clear{clear:both}
+
+#menu_bg{background:#000;width:100%;float:left;}
+#menu{width:960px;margin:auto;} 
+#menu ul{list-style:none;float:left;}
+#menu ul li{float:left;padding:10px 20px; font-size:16px;line-height:20px; }
+#menu ul li a{text-decoration:none;color:#FFF;font-weight:Bold;}
+#menu ul li:hover a{text-decoration:underline;}
+
+#menu h2{color:#FFF;font-size:16px;}
+#menu a{text-decoration:none;color:red;line-height:30px;font-weight:bold;}
+#wrapper{width:960px;background:#f5f5f5;margin:auto;}
+#view{border-radius:10px;border:solid 1px black;margin:5px 0px;}
+#next{float:right;}
+
+#content{
+	width:960px;
+	float:left;
+	border:1px solid black;
+	margin-top:5px;
+	}
+#content h1{font-size:18px;color:#F00;width:960px;text-align:center;border-bottom:1px solid black;padding:10px 0px;}	
+#left{
+	width:250px;
+	float:left;
+	background:#000;
+	margin-right:10px;
+	}
+#left ul{list-style:none;}
+#left li{text-align:center;font-size:14px;line-height:25px;border-bottom:1px dotted red;}
+#left li:last-child{border-bottom:none}
+#left li a{text-decoration:none;color:#FFF;font-weight:bold;}
+#left li:hover a{color:#F00}	
+
+#right{
+	width:700px;
+	float:left;
+	background:#000;	
+	}
+.wrap_product{
+	width:700px;
+	padding:10px;
+	float:left;
+	border-bottom:1px solid #FFF;
+	}
+.wrap_product:last-child{border-bottom:none;}	
+.wrap_product img{
+	float:left;
+	margin-right:20px;
+	}	
+.wrap_product:hover{
+	box-shadow: 3px 3px 3px #FFF;
+}	
+.right_pro{
+	width:450px;
+	float:left;
+	}
+.right_pro p{padding-bottom:2px;}
+.right_pro h4{font-size:14px;font-weight:bold;color:#FFF;float:left;}	
+#name{font-size:14px;color:#FFF;}
+#soluong{font-size:14px;color:#FFF;}
+#noidung{font-size:14px;color:#FFF;}
+#gia{font-size:14px;color:#FFF;}
+
+#addcart{
+	background:#FFF;
+	color:black;
+	border-radius:3px;
+	padding:3px;
+	float:right;
+	font-weight:bold;
+	text-decoration:none;
+	margin-top:40px;
+	}
+#footer{
+	margin-top:10px;
+	background:#000;
+	color:#FFF;
+	text-align:center;
+	padding:20px 100px;
+	}	
+
+table{text-align:center}
+
+#them {padding:20px;}
+#them p{margin-right:10px;}
+#them h2{margin-bottom:30px;}
+#them #submit {padding:10px;margin-top:10px;}
+#them #rs{padding:10px;margin-top:10px;margin-left:10px;}
+#dangnhap{float:right;}
